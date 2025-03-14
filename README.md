@@ -17,3 +17,6 @@
 ### Logging & Monitoring
 - Audit Logs track sent, failed, and retried messages.
 - An Admin Dashboard (future) provides monitoring & analytics.
+
+  
+![System Architecture](architecture.png)
