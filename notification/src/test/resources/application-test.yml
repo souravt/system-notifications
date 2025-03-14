@@ -1,0 +1,36 @@
+spring:
+  # Test Database Configuration
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+
+  # Test RabbitMQ Configuration (using mock)
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+  # Test Mail Configuration
+  mail:
+    host: localhost
+    port: 3025
+    username: test
+    password: test
+    properties:
+      mail:
+        smtp:
+          auth: false
+          starttls:
+            enable: false
+
+# Test-specific properties
+notification:
+  retry:
+    max-attempts: 3
+    initial-interval: 100
+    multiplier: 1.5
+  deduplication:
+    window-hours: 1
