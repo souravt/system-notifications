@@ -18,6 +18,8 @@
 - Audit Logs track sent, failed, and retried messages.
 - An Admin Dashboard (future) provides monitoring & analytics.
 
-### System Architecture
+## System Architecture
 
 ![System Architecture](architecture.png)
+
+Edit here : https://www.mermaidchart.com/app/projects/82ea3771-f8c8-433e-8dc4-a509d3e55e6b/diagrams/acf65cdf-6b8f-47ea-a17a-0ca27b456c20/version/v0.1/edit
