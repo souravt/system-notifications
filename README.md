@@ -1,5 +1,8 @@
 # System Notifications
 
+### Requirements
+https://agenticaipoc.atlassian.net/jira/software/projects/NOT/boards/2/backlog
+
 ## System Components
 ### Message Ingestion
 - Applications send notifications as JSON messages via RabbitMQ.
